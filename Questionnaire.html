@@ -1,0 +1,107 @@
+<html>
+<head> <link rel="stylesheet" href= "CSS/styles.css" /></head>
+<h1 id="title"> Which Vodafone Phone is right for you? </h1>
+<div id="form-outer">
+  <p id="description"> 
+    First a few details so we can save your preferences for next time: </p>
+  <form id="survey-form" method="GET"action="https://crossorigin.me/https://freecodecamp.com">
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label"
+for="name">* Name: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="name"id="name"class="input-field" placeholder="Enter your name" required>
+      </div>
+    </div>
+      <div class="rowTab">
+      <div class="labels">
+        <label id="email-label"
+ for="email">* Email: </label>
+      </div>
+      <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+      </div>
+    </div>
+        <div class="rowTab">
+           <div class="labels">
+              <label id="number-label"
+  for="age">* Age: </label>
+          </div>
+          <div class="rightTab">
+            <input type="number"name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+          </div>
+    </div>
+          <p id=description> Great, now let's get started </p>
+          <div class ="rowTab">
+            <div class="labels">
+              <label for="currentPos"> What would you like to use your device for? </label>
+            </div>
+            <div class="rightTab">
+              <select id="dropdown" name="currentPos" class="dropdown">
+                <option disabled value> Select an option</option>
+                <option value="Calls"> Just Calls & Texts</option>
+                <option value="Internet"> Calls, Texts & Browsing Internet</option>
+                <option value="Apps"> Calls, Texts, & Apps</option>
+                <option value="Games"> Calls, Texts, Apps & Games </option>
+                <option value="Video"> Social Media, Apps, Photos & Video Editing </option>
+                <option value="Everything"> Everything </option>
+              </select>
+              </label>
+            </div>
+          </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="userRating"> Which of these manufacturers is your favourite?</label>
+          </div>
+       <div class="rightTab">
+         <ul style="list-style:none;">
+           <li class="radio">
+             <label> Apple <input name="radio-buttons" value="1" type="radio" class="userRatings"></label></li>
+           <li class="radio">
+             <label> Samsung <input name="radio-buttons" value="2" type="radio" class="userRatings"></label></li>
+           <li class="radio"><label>Huawei<input name="radio-buttons" value="3"type="radio" class="userRatings">
+             </label>
+           </li>
+         </ul>
+          </div>
+  </div>
+  <div class="rowTab">
+      <div class="labels">
+        <label for="preferences"> Extras and services whic you would use: </label>
+      </div>
+      <div class="rightTab">
+        <ul id="preferences" style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Loss, Damage and Theft Insurance </label></li>
+          <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">International Calls</li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Amazon Prime</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">NOW TV</label></li>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Spotify Premium</label></li>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Prime Contact</label></li>
+          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">Tech Transfer</label></li>
+          <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">Tech Appointments</label></li>
+          <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">Securenet</label></li>
+         </ul>
+      </div>
+    </div>  
+  <div class="rowTab">
+      <div class="labels">
+        <label for="comments">Any Comments or Suggestions?</label>
+      </div>
+      <div class="rightTab">
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</div>
+       
+                
+              
+              
+        
+           
+          
+                  
+        
+      
